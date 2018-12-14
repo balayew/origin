@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8272" started-at="2018-12-13T03:38:47Z" finished-at="2018-12-13T03:38:56Z">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.validateLink()[pri:0, instance:com.origin.tests.HomePageTest@ed3068a]" name="validateLink" class="com.origin.tests.HomePageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTest.validateHomePage()[pri:0, instance:com.origin.tests.HomePageTest@ed3068a]" name="validateHomePage" class="com.origin.tests.HomePageTest"/>
+        <method signature="HomePageTest2.validateHomePage()[pri:0, instance:com.origin.tests.HomePageTest2@4cc6fa2a]" name="validateHomePage" class="com.origin.tests.HomePageTest2"/>
+        <method signature="HomePageTest2.validateLink()[pri:0, instance:com.origin.tests.HomePageTest2@4cc6fa2a]" name="validateLink" class="com.origin.tests.HomePageTest2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test1" duration-ms="8272" started-at="2018-12-13T03:38:47Z" finished-at="2018-12-13T03:38:56Z">
+      <class name="com.origin.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.origin.tests.HomePageTest@ed3068a]" name="setUp" is-config="true" duration-ms="4431" started-at="2018-12-13T03:38:47Z" finished-at="2018-12-13T03:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHomePage()[pri:0, instance:com.origin.tests.HomePageTest@ed3068a]" name="validateHomePage" duration-ms="1430" started-at="2018-12-13T03:38:52Z" finished-at="2018-12-13T03:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateLink()[pri:0, instance:com.origin.tests.HomePageTest@ed3068a]" name="validateLink" duration-ms="1204" started-at="2018-12-13T03:38:53Z" finished-at="2018-12-13T03:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.origin.tests.HomePageTest@ed3068a]" name="tearDown" is-config="true" duration-ms="1175" started-at="2018-12-13T03:38:54Z" finished-at="2018-12-13T03:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.origin.tests.HomePageTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="8272" started-at="2018-12-13T03:38:47Z" finished-at="2018-12-13T03:38:56Z">
+      <class name="com.origin.tests.HomePageTest2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.origin.tests.HomePageTest2@4cc6fa2a]" name="setUp" is-config="true" duration-ms="5428" started-at="2018-12-13T03:38:47Z" finished-at="2018-12-13T03:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHomePage()[pri:0, instance:com.origin.tests.HomePageTest2@4cc6fa2a]" name="validateHomePage" duration-ms="471" started-at="2018-12-13T03:38:53Z" finished-at="2018-12-13T03:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateLink()[pri:0, instance:com.origin.tests.HomePageTest2@4cc6fa2a]" name="validateLink" duration-ms="1558" started-at="2018-12-13T03:38:53Z" finished-at="2018-12-13T03:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.origin.tests.HomePageTest2@4cc6fa2a]" name="tearDown" is-config="true" duration-ms="797" started-at="2018-12-13T03:38:55Z" finished-at="2018-12-13T03:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.origin.tests.HomePageTest2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
